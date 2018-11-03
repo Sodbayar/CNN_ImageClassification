@@ -8,12 +8,12 @@ pip install keras
 pip install opencv-python
 #실행방법
 먼저 학습데이터를 만들기 위해 webimage.py를 실행해서 directory와 사믈의 이름 및 몇개를 찍을 수를 줘서 비디오를 찍읍니다
-### 예: 
-python webimage.py data/train/사믈이름1 2000
-python webimage.py data/valid/사믈이름1 200
+### 예: 꾝 data/train와 data/valid라는 파일 생성하셔야 합니다
+python webimage.py data/train/사믈이름1 2000 </br>
+python webimage.py data/valid/사믈이름1 200 </br>
 
-python webimage.py data/train/사믈이름2 2000
-python webimage.py data/valid/사믈이름2 200
+python webimage.py data/train/사믈이름2 2000</br>
+python webimage.py data/valid/사믈이름2 200</br>
 
 학습한 결과를 확인하는 valid 데이터셋도 만듭니다
 
