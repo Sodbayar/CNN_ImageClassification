@@ -21,17 +21,9 @@ while True:
 	img_array = np.expand_dims(img_array, axis=0)
 
 	#prediction
-	#one hot array to index
-	prediction = np.argmax(model.predict(img_array)[0])
+	#one hot array
+	prediction = model.predict(img_array)[0]
 	print(prediction)
-	if prediction == 0:
-		frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-		print('Candy')
-	elif prediction == 2:
-		print('Sprite')
-	else:
-		print('Cattoy')
-
 	cv2.imshow("Capturing", frame)
 	if cv2.waitKey(1) & 0xFF == ord('q'):
 		break
