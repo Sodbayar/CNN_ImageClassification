@@ -18,3 +18,6 @@ python webimage.py data/valid/사물이름2 200</br>
 
 데이터셋을 만든 다음 python model2.py을 실행해서 모델을 학습하기 시작합니다
 학습이 끝나고 나서 python predictme.py을 실행하며 결과를 알 수 있습니다.
+
+</br>
+Jupyter Notebook model_2.ipynb 에서 진행 과정 또는 라벨링을 잘 이해되도록 만들었습니다.
