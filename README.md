@@ -12,6 +12,7 @@ pip install opencv-python
 python webimage.py data/train/사믈이름1 2000 </br>
 python webimage.py data/valid/사믈이름1 200 </br>
 
+학습한 결과를 확인하는 valid 데이터셋도 만듭니다</br>
 python webimage.py data/train/사믈이름2 2000</br>
 python webimage.py data/valid/사믈이름2 200</br>
 
